@@ -25,38 +25,6 @@ def CheckMath(userAnswer):
                 questions += 1
                 userwrong += 1           
                 return("Wrong, but good try!")
-
-
-# def CheckMupliyMath(userAnswer):
-   # if userAnswer != "stop":
-    #    userAnswer = int(userAnswer)
-    #    global usercorrect
-    #    global userwrong
-     #   global questions
-     #   if userAnswer == (int(Num1 * Num2)):
-     #       questions += 1
-     #       usercorrect += 1
-     #       return("Yes that's correct!")
-     #   else:
-      #      questions += 1
-      #      userwrong += 1
-       #     return("Wrong, but good try!")
-        
-
-#def CheckDivideMath(userAnswer):
-   # if userAnswer != "stop":
-    #    userAnswer = (int(userAnswer))
-   #     global usercorrect
-    #    global userwrong
-    #    global questions
-    #    if userAnswer == (Num2):
-     #       questions += 1
-     #       usercorrect += 1
-  #          return("Yes, thats correct!")
-  #      else:
-  #          questions += 1
-   #         userwrong += 1           
-   #         return("Wrong, but good try!")
         
     
 def grade(usercorrect, userwrong, questions, testGrade):
@@ -100,3 +68,36 @@ if MorD == "d":
         print(CheckMath(userAnswer))
         if userAnswer == "stop":
             print(grade(usercorrect, userwrong, questions, testGrade))
+
+
+
+            # def CheckMupliyMath(userAnswer):
+   # if userAnswer != "stop":
+    #    userAnswer = int(userAnswer)
+    #    global usercorrect
+    #    global userwrong
+     #   global questions
+     #   if userAnswer == (int(Num1 * Num2)):
+     #       questions += 1
+     #       usercorrect += 1
+     #       return("Yes that's correct!")
+     #   else:
+      #      questions += 1
+      #      userwrong += 1
+       #     return("Wrong, but good try!")
+        
+
+#def CheckDivideMath(userAnswer):
+   # if userAnswer != "stop":
+    #    userAnswer = (int(userAnswer))
+   #     global usercorrect
+    #    global userwrong
+    #    global questions
+    #    if userAnswer == (Num2):
+     #       questions += 1
+     #       usercorrect += 1
+  #          return("Yes, thats correct!")
+  #      else:
+  #          questions += 1
+   #         userwrong += 1           
+   #         return("Wrong, but good try!")
